@@ -11,3 +11,6 @@ if os.path.exists(source):
 else:
     os.makedirs(source)
     os.rename(source,dest)
+#Ma'am we don't need the files as the code will check if there is a file or not
+#if yes, then it will rename 
+#if no, then it will make a file then rename it
